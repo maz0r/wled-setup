@@ -13,11 +13,14 @@ This is a living document, based on feedback things may change.
 Many of the references found within are sourced from the official wled wiki along with resources taken from Moonraker, and richardjm's work on the macros & WLED integration.
 
 
+This guide will get you running with 1-70 LED's without using an external power source, once you exceed this value you may notice a lack of power, or fade but more on that later.
+
+
 ## Requirements
 ### Must have
 
  - ESP8266 or ESP32 Style board
- - 5V shielded cable such as USB 2.0, or a twisted pair like ethernet work best as they can better handle sources of EMI (other options are may be fine in your implementation)
+ - 5V shielded cable such as USB 2.0, or a twisted pair like ethernet work best as they are designed to reject sources of EMI (other options are may be fine in your implementation)
  - Relevant USB cable for setup
  - Computer with USB ports, and a recent version of the Chrome or Edge browser.
  - 5V LED Strip or Neo Pixels *i.e. WS281X or SK6812 RGBW*
@@ -84,65 +87,43 @@ Some tested/validated hardware reccomendations can be found linked in the [Recom
  - Click Install - A pop up should appear to select your D1 Mini
  - Click ok and it should flash (if not you can try hitting the reset/boot button on the D1 Mini)
 
-If there is no device OR the device has an error in Device Manager head to [Fixing Drivers](#driver-fix)
-
-
-
-
-
-
-
+If there is no device OR the device has an error in Device Manager head to **[Fixing Drivers](#driver-fix)**
 \* ESP32-C boards are not compatible at present
 \*\* The USB cable can be used for power if using a limited number of LED's **OR** 
 
-
-// WiFi Install (easiest)
-
-#### 1
-
-
-
-
-
-
-
-
-
-
-
-
-
 #### Instructions for the serial configuration
 
-
-
+\<TBC\>
 
 
 
 ### Wiring the Board
+**Verify the pinuot on your own board before wiring as these may vary between manufacturers/ board revisions**
 
+
+Ground
+VCC
+Signal  \<explain ESP8266 and ESP32 diffs\>
 ### Wiring the LED Strip
+Ground - GND
+VCC - 5V (VCC)   \<explain how the power can be connected to either end, including in the middle and supply power to both sides\>
+Signal - DI (D+,S) \<explain that SIGNAL MUST go into the DIN on IN end of the strip\>
 
+### (Optional) Longer strips
 
-  
+For longer runs several methods of supplying more power can be used, however the simplest is to supply the 5V and GND from a dedicated PSU like the RS-5-25 from Meanwell.
 
 ## Software Setup
-### 
-
-
-
-
-
-
-
 #### Moonraker 
 
 [Moonraker](https://moonraker.readthedocs.io/en/latest/configuration/#wled)
 
 
-### 
+#### Klipper Macros
 
-###
+
+
+
 
 
 
@@ -262,6 +243,9 @@ run: ```ls /dev/tty*```
 
 Reconnect the device
 run: ```ls /dev/tty*```
+
+![ls-devtty-after](images/ls-devtty-after.png)
+
 #### 2
 Open your computer WIFI and connect to the WLED-AP network the ESP is now broadcasting.
  password is - wled1234
@@ -281,10 +265,10 @@ Spot the difference, thats your COM device.
 
 
 ##### Driver Fix
-<insert image>
+\<insert image\>
 [CP2102 - square chip](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)
 
-<insert image>
+\<insert image\>
 [CH34x - rectangular chip](https://github.com/nodemcu/nodemcu-devkit/tree/master/Drivers)
 
 
