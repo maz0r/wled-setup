@@ -1,0 +1,611 @@
+{
+    "0": {},
+    "1": {
+        "on": true,
+        "bri": 128,
+        "transition": 7,
+        "mainseg": 0,
+        "seg": [
+            {
+                "id": 0,
+                "start": 0,
+                "stop": 30,
+                "grp": 1,
+                "spc": 0,
+                "of": 0,
+                "on": true,
+                "bri": 255,
+                "cct": 127,
+                "col": [
+                    [
+                        255,
+                        243,
+                        8
+                    ],
+                    [
+                        0,
+                        0,
+                        255
+                    ],
+                    [
+                        0,
+                        0,
+                        0
+                    ]
+                ],
+                "fx": 0,
+                "sx": 128,
+                "ix": 128,
+                "pal": 4,
+                "sel": false,
+                "rev": false,
+                "mi": false
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            }
+        ],
+        "n": "Ukraine"
+    },
+    "45": {
+        "n": "Ready",
+        "on": true,
+        "bri": 128,
+        "transition": 7,
+        "mainseg": 0,
+        "seg": [
+            {
+                "id": 0,
+                "start": 0,
+                "stop": 30,
+                "grp": 1,
+                "spc": 0,
+                "of": 0,
+                "on": true,
+                "bri": 255,
+                "cct": 127,
+                "n": "Left",
+                "col": [
+                    [
+                        8,
+                        255,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        255
+                    ],
+                    [
+                        0,
+                        0,
+                        0
+                    ]
+                ],
+                "fx": 0,
+                "sx": 128,
+                "ix": 128,
+                "pal": 4,
+                "sel": true,
+                "rev": false,
+                "mi": false
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            }
+        ]
+    },
+    "40": {
+        "n": "Doing Stuff",
+        "on": true,
+        "bri": 128,
+        "transition": 7,
+        "mainseg": 0,
+        "seg": [
+            {
+                "id": 0,
+                "start": 0,
+                "stop": 30,
+                "grp": 1,
+                "spc": 0,
+                "of": 0,
+                "on": true,
+                "bri": 255,
+                "cct": 127,
+                "n": "Left",
+                "col": [
+                    [
+                        8,
+                        0,
+                        255
+                    ],
+                    [
+                        0,
+                        0,
+                        255
+                    ],
+                    [
+                        0,
+                        0,
+                        0
+                    ]
+                ],
+                "fx": 100,
+                "sx": 128,
+                "ix": 128,
+                "pal": 4,
+                "sel": true,
+                "rev": false,
+                "mi": false
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            }
+        ]
+    },
+    "15": {
+        "n": "Heating",
+        "on": true,
+        "bri": 128,
+        "transition": 7,
+        "mainseg": 0,
+        "seg": [
+            {
+                "id": 0,
+                "start": 0,
+                "stop": 30,
+                "grp": 1,
+                "spc": 0,
+                "of": 0,
+                "on": true,
+                "bri": 255,
+                "cct": 127,
+                "n": "Left",
+                "col": [
+                    [
+                        8,
+                        0,
+                        255
+                    ],
+                    [
+                        0,
+                        0,
+                        255
+                    ],
+                    [
+                        0,
+                        0,
+                        0
+                    ]
+                ],
+                "fx": 45,
+                "sx": 128,
+                "ix": 128,
+                "pal": 4,
+                "sel": true,
+                "rev": false,
+                "mi": false
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            }
+        ]
+    },
+    "43": {
+        "n": "Busy",
+        "on": true,
+        "bri": 128,
+        "transition": 7,
+        "mainseg": 0,
+        "seg": [
+            {
+                "id": 0,
+                "start": 0,
+                "stop": 30,
+                "grp": 1,
+                "spc": 0,
+                "of": 0,
+                "on": true,
+                "bri": 255,
+                "cct": 127,
+                "n": "Left",
+                "col": [
+                    [
+                        255,
+                        128,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        255
+                    ],
+                    [
+                        0,
+                        0,
+                        0
+                    ]
+                ],
+                "fx": 45,
+                "sx": 128,
+                "ix": 128,
+                "pal": 2,
+                "sel": true,
+                "rev": false,
+                "mi": false
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            }
+        ]
+    },
+    "42": {
+        "n": "Complete",
+        "on": true,
+        "bri": 128,
+        "transition": 7,
+        "mainseg": 0,
+        "seg": [
+            {
+                "id": 0,
+                "start": 0,
+                "stop": 30,
+                "grp": 1,
+                "spc": 0,
+                "of": 0,
+                "on": true,
+                "bri": 255,
+                "cct": 127,
+                "n": "Left",
+                "col": [
+                    [
+                        255,
+                        128,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        255
+                    ],
+                    [
+                        0,
+                        0,
+                        0
+                    ]
+                ],
+                "fx": 42,
+                "sx": 128,
+                "ix": 128,
+                "pal": 2,
+                "sel": true,
+                "rev": false,
+                "mi": false
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            }
+        ]
+    },
+    "46": {
+        "n": "Printing",
+        "on": true,
+        "bri": 128,
+        "transition": 7,
+        "mainseg": 0,
+        "seg": [
+            {
+                "id": 0,
+                "start": 0,
+                "stop": 30,
+                "grp": 1,
+                "spc": 0,
+                "of": 0,
+                "on": true,
+                "bri": 255,
+                "cct": 127,
+                "n": "Left",
+                "col": [
+                    [
+                        255,
+                        128,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        255
+                    ],
+                    [
+                        0,
+                        0,
+                        0
+                    ]
+                ],
+                "fx": 55,
+                "sx": 128,
+                "ix": 128,
+                "pal": 2,
+                "sel": true,
+                "rev": false,
+                "mi": false
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            },
+            {
+                "stop": 0
+            }
+        ]
+    }
+}
