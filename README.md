@@ -75,9 +75,11 @@ Some tested/validated hardware reccomendations can be found linked in the [Recom
 ### Flashing Firmware
 #### Web Flash (No Serial Support)
 1. Connect your ESP board to PC via USB 
-  - Identify the COM port [windows](#windows-com) [linux](#windows-com)
-    
+  - Identify the COM port 
+    - [windows](#windows-com)
+    - [linux](#windows-com)
   - Fixing Drivers [Fix Drivers](#driver-fix)
+
 2. Visit - [https://install.wled.me/v2.htm](https://install.wled.me/v2.htm)  using Chrome or Edge 
  - Click Install - A pop up should appear to select your D1 Mini
  - Click ok and it should flash (if not you can try hitting the reset/boot button on the D1 Mini)
@@ -134,7 +136,8 @@ If there is no device OR the device has an error in Device Manager head to [Fixi
 
 
 #### Moonraker 
-https://moonraker.readthedocs.io/en/latest/configuration/#wled
+
+[Moonraker](https://moonraker.readthedocs.io/en/latest/configuration/#wled)
 
 
 ### 
@@ -161,14 +164,15 @@ Only links to items that have been tested are included in this section
 There are no affiliate or tracking Links (screw that)
 
 D1 Mini (clone's)
-- [https://www.aliexpress.com/item/32651747570.html](Win Win - Aliexpress)
-- [https://www.amazon.co.uk/AZDelivery-D1-Mini-Development-Compatible/dp/B0754N794H/](AZDelivery - Amazon UK)
+- [Win Win - Aliexpress](https://www.aliexpress.com/item/32651747570.html)
+- [AZDelivery - Amazon UK](https://www.amazon.co.uk/AZDelivery-D1-Mini-Development-Compatible/dp/B0754N794H/)
+
 **! Avoid ESP32-C RISK-V boards for now**
 
 Shielded Cable / Twisted Pair
 
-Shielded - [https://www.amazon.co.uk/gp/product/B00NH13DV2](Amazon Basics USB 2.0 Cable 3M/10feet - UK)
-Twisted Pair -[https://www.amazon.co.uk/Snagless-Ethernet-Network-Compatible-Consoles-Grey/dp/B08DCQMKTC/](Cat 5e)
+Shielded - [Amazon Basics USB 2.0 Cable 3M/10feet - UK](https://www.amazon.co.uk/gp/product/B00NH13DV2)
+Twisted Pair -[Cat 5e](https://www.amazon.co.uk/Snagless-Ethernet-Network-Compatible-Consoles-Grey/dp/B08DCQMKTC/)
 
 
 
@@ -183,14 +187,14 @@ Crimping Tools
 - IWISS IWS-2820M *or* ENGINEER PA-09 style 
 
 Soldering Iron
-- [https://pine64.com/product/pinecil-smart-mini-portable-soldering-iron/](PINECIL) - My personal preference 
+- [PINECIL](https://pine64.com/product/pinecil-smart-mini-portable-soldering-iron/) - My personal preference 
 
 Solder
 - For this application 
 
 Flux (optional)
-- [https://www.amazon.co.uk/MG-Chemicals-Pneumatic-Dispenser-Dispensing/dp/B00425FUW2](MG Chemicals - Amazon UK)
-- [https://www.amazon.com/MG-Chemicals-Pneumatic-Dispenser-Dispensing/dp/B00425FUW2](MG Chemicals - Amazon US)
+- [(MG Chemicals - Amazon UK](https://www.amazon.co.uk/MG-Chemicals-Pneumatic-Dispenser-Dispensing/dp/B00425FUW2)
+- [MG Chemicals - Amazon US](https://www.amazon.com/MG-Chemicals-Pneumatic-Dispenser-Dispensing/dp/B00425FUW2)
 
 
 
